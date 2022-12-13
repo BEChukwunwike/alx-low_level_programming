@@ -2,8 +2,8 @@
 /**
  *print_sign - prints the sign of a number
  *@n: number for sign to be printed
- * Return: 1 if number is greater than 0
- * 0 if number is 0 and -1 if is less than 0
+ * Return: 1 if number is greater than zero
+ * 0 if number is zero and -1 if is less than zero
  */
 int print_sign(int n)
 {
@@ -20,6 +20,6 @@ int print_sign(int n)
 	else
 	{
 		putchar('-');
-	return (-1);
+		return (-1);
 	}
 }
