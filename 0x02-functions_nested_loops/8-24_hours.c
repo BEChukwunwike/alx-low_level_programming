@@ -4,7 +4,7 @@
  *jack_bauer - prints minutes
  */
 
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int hour, minute;
 
@@ -12,12 +12,12 @@ void jack_bauer(void);
 	{
 		for (minute = 0; minute <= 59; minutes++)
 		{
-			_putcher((hour / 10) + '0');
-			_putcher((hour % 10) + '0');
-			_putcher(':');
-			_putcher((minute / 10) + '0');
-			_putcher((minutes % 10) + '0');
-			_putcher('\n');
+			_putchar((hour / 10) + '0');
+			_putchar((hour % 10) + '0');
+			_putchar(':');
+			_putchar((minute / 10) + '0');
+			_putchar((minutes % 10) + '0');
+			_putchar('\n');
 		}
 	}
 }
