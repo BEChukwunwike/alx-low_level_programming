@@ -5,6 +5,7 @@
  *@num: The number
  *Return: value the last digit of the number
  */
+
 int print_last_digit(int num)
 {
 	int last = num % 10;
