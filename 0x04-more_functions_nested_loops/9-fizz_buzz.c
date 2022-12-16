@@ -9,10 +9,9 @@
 
 int main(void)
 {
-	int num = 1;
+	int num = 0;
 
-	printf("%d", num);
-	for (num = 1; num <= 100; num++)
+	for (num = 0; num <= 100; num++)
 	{
 		if ((num % 3 == 0) && (num % 5 == 0))
 		{
