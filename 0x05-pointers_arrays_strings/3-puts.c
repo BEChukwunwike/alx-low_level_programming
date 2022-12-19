@@ -3,12 +3,16 @@
  * _puts - prints a string, followed by a new line
  * to stdout
  * @str: pointer
+ * Return: 0
  */
 void _puts(char *str)
 {
-	while (*str != '\0')
+	char c = 0;
+
+	while (str[c] != '\0')
 	{
-		_putchar(*str++);
+		_putchar('str[c]');
+		c += 1;
 	}
 	_putchar('\n');
 }
